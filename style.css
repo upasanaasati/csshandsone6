@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+
+.hammenu{
+    position: relative;
+    top: 35px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+}
+
+
+ul li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding: 50px 35px;
+    position: relative; 
+    left: 310px;
+    bottom: 20px;
+}
+
+
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+p{
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+#lorem{
+    color: white;
+    position: relative;
+    bottom: 100px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.btn{
+    height: 40px;
+    width: 200px;
+    color: black;
+    border-radius: 20px;
+    border: 1px white solid;
+    font-weight: bolder;
+    position: relative;
+    bottom: 80px;
+    background-color: white;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.box{
+    height: 250px;
+    width: 220px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.camel2{
+    color: white;
+    text-align: justify;
+    font-size: 10px;
+}
+
+.box1{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 100px;
+    bottom: 45px;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.box1:hover{
+    position: relative;
+    bottom: 55px;
+    cursor: pointer;
+}
+
+.box2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 45px;
+    right: 50px;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.box2:hover{
+    position: relative;
+    bottom: 55px;
+    cursor: pointer;
+}
+
+.box3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.box3:hover{
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.box4{
+    background-image: url(./pic-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.box4:hover{
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+}
+@media screen and (min-width:654px) and (max-width:900px){
+    body{
+        background-image: url(./sahara\ desert.jpg);
+        background-size: 100%;
+        background-repeat: repeat; 
+        background-position: center;
+    }
+    ul li{
+        display: inline-block;
+    }
+
+    .navbar-menu{
+        position: relative;
+        right: 200px;
+    }
+
+    .grid{
+        grid-template-columns: 450px;
+    }
+
+    .box{
+        height: 250px;
+    }
+
+    .logo{
+        position: absolute;
+    }
+
+    .hammenu{
+        position: absolute;
+        right: 40px;
+    }
+
+    p{
+        font-size: 40px;
+        position: relative;
+        left: 50px;
+        bottom: 90px;
+    }
+
+    #lorem{
+        position: relative;
+        left: 50px;
+        bottom: 120px;
+        line-height: 15px;
+        font-weight: lighter;
+    }
+
+    .btn{
+        position: relative;
+        left: 50px;
+        bottom: 100px;
+        font-weight: bold;
+    }
+
+    h2{
+        font-weight: bold;
+    }
+
+    .camel2{
+        font-weight: bold;
+    }
+    .box1{
+        position: relative;
+        top: 200px;
+        right: 180px;
+        bottom: 50px;
+        height: 220px;
+        width: 480px;
+        background-image: url(./pic-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: .2s;
+        transition-timing-function: ease;
+    }
+    .box:active{
+        transform: translateY(-15px);
+    }
+
+    .box2{
+        position: relative;
+        top: 220px;
+        right: 180px;
+        height: 220px;
+        width: 480px;
+        background-image: url(./pic-2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .box3{
+        position: relative;
+        top: 240px;
+        right: 180px;
+        height: 220px;
+        width: 480px;
+        background-image: url(./pic-3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .box4{
+        position: relative;
+        top: 260px;
+        right: 180px;
+        bottom: 50px;
+        height: 220px;
+        width: 480px;
+        background-image: url(./pic-4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen  and (min-width: 280px) and (max-width: 653px){
+
+    .grid{
+         grid-template-columns: auto;
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box{
+         color: white;
+         height: 240px;
+     width:240px;
+    }
+    ul li{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 5px;
+        text-align: right;
+    }
+
+    .hammenu{
+        position: relative;
+        right: 190px;
+    }
+
+    .navbar{
+        flex-direction:row;
+        justify-content: flex-start;
+    }
+
+    body{
+         background-image: url(./shara desert(1).jpg);
+         background-size: cover;
+         background-repeat:repeat;
+         background-position:center;
+    }
+    .navbar-menu{
+        position: relative;
+        right: 390px;
+        top: 20px;
+    }
+
+    .logo{
+        position: relative;
+        left: 10px;
+    }
+
+    p{
+        font-size: 40px;
+        position: relative;
+        bottom: 60px;
+        left: 10px;
+    }
+
+    #lorem{
+        font-weight:lighter;
+        position: relative;
+        left: 10px;
+    }
+
+    .btn{
+        position: relative;
+        left: 10px;
+        /* bottom: 20px; */
+    }
+
+    .box1{
+        position: relative;
+        left: 20px;
+    }
+
+    .box2{
+        position: relative;
+        left: 20px;
+    }
+
+    .box3{
+        position: relative;
+        left: 20px;
+    }
+
+    .box4{
+        position: relative;
+        left: 20px;
+    }
+
+     .container-1{
+        gap:130px;
+        flex-direction: row;
+        justify-content:flex-start;
+    }
+    .container-2{
+        flex-direction: column;
+        align-items:center;
+        row-gap: 20px;
+    }
+}
